@@ -11,7 +11,7 @@ function start() {
     new_circle.style.top = `${y - 100}px`;
     new_circle.style.left = `${x - 100}px`;
 
-    const randomSize = Math.floor(Math.random() * 70 + 30);
+    const randomSize = Math.floor(Math.random() * 150 + 100);
 
     const circleBtn = document.createElement('span');
     circleBtn.className = 'circle-btn';
