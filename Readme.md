@@ -8,4 +8,6 @@ Try this game ➡️ https://globalkmaria.github.io/pond/
 
 <p>You can just watch the water spread. Or If you click the background you can make water spread.</p>
 
-<video controls width="300" src="./pondv.mov" type="video/mov"></video>
+https://user-images.githubusercontent.com/75622611/135078070-d7ae3e73-ad78-43d7-8b47-08e05bc55b8b.mp4
+
+
