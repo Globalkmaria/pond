@@ -1,0 +1,120 @@
+:root {
+  --primary-light: #8abdff;
+  --primary: #6d5dfc;
+  --primary-dark: #5b0eeb;
+
+  --white: #FFFFFF;
+  --greyLight-1: #E4EBF5;
+  --greyLight-2: #c8d0e7;
+  --greyLight-3: #bec8e4;
+  --greyDark: #9baacf;
+}
+
+* {
+  margin: 0;
+}
+
+.body {
+  overflow: hidden;
+  background-color: #E4EBF5;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transition: linear 1s;
+}
+
+.circle {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  /* width: 100%; */
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.added-circle{
+  animation: fadeout 4s linear;
+}
+
+.circle-btn {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color:  #E4EBF5;
+  box-shadow: 2px 2px 2px #c8d0e7, -1px -1px 1px #FFFFFF;
+  /* box-shadow: inset 3px 3px 4px 1px #c8d0e7, inset -3px -3px 4px 1px #FFFFFF; */
+  border-radius: 50%;
+  z-index: 300;
+}
+
+.circle__back {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  filter: blur(1px);
+  z-index: 100;
+  box-shadow: 4px 4px 8px #c8d0e7, -4px -4px 8px #FFFFFF;
+}
+
+.circle__back-1 {
+  background: linear-gradient(to bottom right, #c8d0e7 0%, #FFFFFF 100%);
+  -webkit-animation: waves 4s linear infinite;
+  animation: waves 4s linear infinite;
+}
+
+.circle__back-2 {
+  -webkit-animation: waves 4s linear 2s infinite;
+  animation: waves 4s linear 2s infinite;
+}
+@keyframes fadeout {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes waves {
+  0% {
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes waves {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.clicked{
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: #5b0eeb;
+  position: absolute;
+}
