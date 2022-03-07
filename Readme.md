@@ -1,8 +1,8 @@
-# 🏝 Slient Pond 🧘‍♂️
+# 🏝 Silent Pond 🧘‍♂️
 
 Try this game ➡️ https://globalkmaria.github.io/pond/
 
-## What is Slient Pond ?
+## What is Silent Pond ?
 
 #### You can use it to space out!
 
